@@ -39,8 +39,6 @@
 10. [Reproducing the results](#10--reproducing-the-results)
 11. [Repository layout](#11--repository-layout)
 12. [Requirement compliance](#12--requirement-compliance)
-13. [References](#13--references)
-
 ---
 
 ## 1. 🎯 Problem and scope
@@ -343,18 +341,6 @@ Then run `RAG_Optimization.ipynb` top to bottom.
 | Seven JSONL files with exact format | `io_utils.validate_jsonl` returned OK for all seven (295 dev and 182 held-out records) |
 | Failure analysis of ≥ 10 cases | §6.4 |
 | No tuning on held-out | Final design fixed from development data; held-out run once |
-
----
-
-## 13. 📚 References
-
-* Dasigi et al., 2021. *A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers* (QASPER). NAACL.
-* Xiao et al., 2023. *C-Pack: Packaged Resources To Advance General Chinese Embedding* (BGE embeddings).
-* Robertson & Zaragoza, 2009. *The Probabilistic Relevance Framework: BM25 and Beyond.* Foundations and Trends in IR.
-* Cormack, Clarke & Büttcher, 2009. *Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods.* SIGIR.
-* Carbonell & Goldstein, 1998. *The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries.* SIGIR.
-
----
 
 ## 📦 Deliverables
 - **Personal Repository**: [mulata12/Rag-Optimization](https://github.com/mulata12/Rag-Optimization)
