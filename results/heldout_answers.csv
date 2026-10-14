@@ -1,0 +1,3 @@
+config,n_selected,answerable,gold_unanswerable,Answer F1,false_answer_rate,abstain_rate,median_ms retrieval-only (rest),median_ms retrieval+gen (20),LLM calls/q (20)
+baseline,20,19,1,0.18751392369813424,0.0,0.55,16.071726500058503,14010.915,1.0
+final,20,19,1,0.1290049021925884,0.0,0.6,23.812452500010295,11072.154999999999,1.0

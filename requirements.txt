@@ -1,0 +1,11 @@
+datasets>=2.19
+huggingface_hub
+pyarrow
+sentence-transformers>=3.0
+torch
+numpy
+pandas
+google-genai
+jupyter
+ipykernel
+tqdm
